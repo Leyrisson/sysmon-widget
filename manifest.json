@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "sysmon",
+  "name": "System Monitor",
+  "version": "1.0.0",
+  "author": "leyrisson gomes de souza",
+  "description": "Widget transparente com estado do sistema e hardware + limpeza automática",
+  "kinds": [
+    "service"
+  ],
+  "entryPoints": {
+    "service": "SysMon.qml"
+  }
+}

@@ -1,0 +1,13 @@
+[Unit]
+Description=SysMon — relatório diário do sistema por e-mail
+Documentation=man:sysmon(7)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 %h/.config/omarchy/plugins/sysmon/relatorio.py
+Nice=5
+
+[Install]
+WantedBy=default.target

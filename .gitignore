@@ -1,0 +1,16 @@
+# segredos — nunca versionar
+credenciais.env
+*.env
+!*.env.example
+
+# estado de execução
+*.log
+*.json
+!package.json
+!manifest.json
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
