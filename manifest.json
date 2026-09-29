@@ -3,7 +3,7 @@
   "id": "sysmon",
   "name": "System Monitor",
   "version": "1.0.0",
-  "author": "leyrisson gomes de souza",
+  "author": "seu nome aqui",
   "description": "Widget transparente com estado do sistema e hardware + limpeza automática",
   "kinds": [
     "service"
